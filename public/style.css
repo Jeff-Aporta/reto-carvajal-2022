@@ -1,0 +1,30 @@
+* {
+  transition: all 0.25s;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #112233;
+  color: white;
+}
+
+.encabezado {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+}
+
+.encabezado tbody tr td span {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.encabezado tbody tr td span:hover {
+  background: rgba(255, 255, 255, 0.25);
+}

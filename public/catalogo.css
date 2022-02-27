@@ -1,0 +1,49 @@
+#catalogo {
+  margin: 5px;
+}
+
+#catalogo table {
+  width: 100%;
+}
+
+#catalogo .id {
+  font-size: 80%;
+  font-weight: lighter;
+}
+
+#catalogo .titulo {
+  font-size: 150%;
+  padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#catalogo .item {
+  display: inline-block;
+  background: white;
+  border-radius: 5px;
+  color: black;
+  width: 300px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+#catalogo .descripcion {
+  line-height: 90%;
+  font-weight: lighter;
+  text-align: right;
+}
+
+#catalogo .precio {
+  font-weight: bolder;
+  font-size: 120%;
+  text-align: left;
+}
+
+#catalogo .item img {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+}

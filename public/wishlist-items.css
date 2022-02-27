@@ -1,0 +1,31 @@
+.no-hay-items{
+     font-weight: lighter;
+     font-size: 200%;
+}
+
+.item{
+     background: white;
+     color: black;
+     margin: 10px;
+     padding: 10px;
+}
+
+.item table{
+     width: 100%;
+}
+
+.item th{
+     font-weight: bolder;
+     text-align: left;
+}
+
+.item td{
+     font-weight: lighter;
+     text-align: left;
+}
+
+.item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
